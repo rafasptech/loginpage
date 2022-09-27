@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #f1f1f1;
+}
+
+.header{
+    padding: 15px;
+    border-bottom: 3px solid #cd6132;
+    background-color: black;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+h1{
+    color: #cd6132;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+    color: #e3b062;
+}
+.banner{
+    background-color: #000000;
+    background-image: url("https://meusanimais.com.br/wp-content/uploads/2021/05/titanoboa-gigante-ceu-azul.jpg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+ 
+}
+.banner .container{
+
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner p {
+    width: 280px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.banner b{
+    color: #5a0c0c;
+}
+.social{
+    margin: 50px 0;
+
+}
+.social .caixas, .caixa{
+    display: flex;
+}
+.caixa {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+.caixa h4{
+    margin: 15px 0;
+    color: #e6005a;
+}
+.caixa p {
+    text-align: center;
+    color: #897b7b;
+
+}
+.caixa img{
+    width: 170px;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: #32b9cd;
+}
+
+.footer .container{
+    justify-content: center;
+}
+
+.footer p {
+    color: #ffffff;
+}
+
+li a {
+    color: #e3b062;
+    text-decoration: none;
+    cursor: pointer;
+}
